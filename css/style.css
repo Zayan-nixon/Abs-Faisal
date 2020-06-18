@@ -1,0 +1,184 @@
+
+/*----- basic part---*/
+body {
+    background:#333;
+    color: white;
+}
+html {
+    scroll-behavior:smooth;
+}
+
+
+
+.fa {
+    background: #ffffff45;
+    color: #008ed6;
+    padding: 4px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+
+
+/*-----Start nav part---*/
+
+.navbar {
+	background-color:#000;
+    border-bottom: 3px solid #008ed6;
+    opacity:0.7;
+}
+.navbar img {
+	height:50px !important;
+}
+/*-----End nav part---*/
+.navbar a{
+	color:#05ffd0 !important;
+	text-transform:uppercase;
+	font-weight:900;
+}
+.navbar a:hover{
+	background-color:#fff !important;
+	color:#000 !important;
+}
+
+
+
+
+
+/*-----Start Header Part---*/
+#home {
+    background:url('../img/faisal-logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+
+
+#home .home-inner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: rgba(0,0,0,0.7);
+}
+
+
+#home .card {
+    background:#007bff38 !important;
+    border:none;
+    margin-top: 60px;
+}
+
+
+/*-----End Header Part---*/
+
+
+
+
+
+/*-----Start Explore Part---*/
+.explore1 {
+	background:linear-gradient(#00000059, #000000a1),url('../img/faisal-nav.jpg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	color: #05ffd0 !important;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+#explore a i {
+	color:#000;
+	background:#BDD1DF;
+	width: 4rem;
+	height: 4rem;
+	display:inline-block;
+	border-radius:50%;
+	font-size:2rem;
+	padding:1rem;
+	transition:.5s;
+}
+#explore a i:hover{
+	background:#393939;
+	transform:rotate(360deg);
+}
+
+#explore .fa {
+    background: #333;
+}
+
+/*-----End Explore Part---*/
+
+
+
+
+
+
+
+
+/*-----Star Create Part---*/
+#create {
+	background:#ffffff4d;
+}
+#create .single-gallery {
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#create .single-gallery img {
+	width: 100%;
+    transition: 0.5s !important;
+	height:250px !important;
+}
+#create .single-gallery img:hover {
+	transform: scale(1.1) !important;
+/*----End Create Part---*/
+
+}
+
+
+            /*-----Responsive  Part---*/
+
+/*----- Header Part---*/
+@media (max-width:768px){
+    #home h1{
+        font-size:36px;
+    }
+}
+@media (max-width:450px){
+    
+    #home h1 {
+        font-size: 30px;
+    }
+    #home .p-4 {
+        padding: 4px !important;
+    }
+    
+    #home .home-inner {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+    #explore .p-4 {
+        padding: 4px !important;
+    }
+    #explore p{
+        font-size:16px;
+    }
+    #create .p-4,.p-5 {
+        padding: 0 !important;
+    }
+    #create h3{
+        font-size:20px;
+        margin-bottom: 20px;
+    }
+      #create p{
+        font-size:16px;
+        margin-bottom: 20px;
+    }
+
+    
+    #share p{
+        font-size:16px;
+        margin:0 !important;
+        padding: 0 !important;
+    }
+}
+
+
+
